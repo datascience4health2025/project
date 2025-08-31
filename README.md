@@ -37,9 +37,9 @@ No modelo a seguir são colocados exemplos ilustrativos, que serão substituído
 > Incluir nome RA e foco de especialização de cada membro do grupo.
 > |Nome  | RA | Especialização|
 > |--|--|--|
-> | Nome1  | 123456  | Biologia |
+> | Carlos Daniel de Lima Brasil  | 168296  | Computação |
 > | Nome2  | 123456  | Saúde |
-> | Nome3  | 123456  | Computação |
+> | Nome3  | 123456  | Biologia |
 > | Nome4  | 123456  | XXX|
 
 # Apresentação
