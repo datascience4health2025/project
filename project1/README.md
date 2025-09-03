@@ -57,8 +57,6 @@ Gene Ontology | <https://geneontology.org/> | Maior fonte de informações do mu
 ![Modelo Lógico de Grafos](assets/images/modelo-logico.jpg)
 
 # Metodologia
-> Esta seção evoluirá ao longo do projeto. Nesta primeira entrega, informe técnicas de Ciência de Redes que pretende explorar,
-> tais como: detecção de comunidades, análise de centralidade, predição de links, ou a combinação de uma ou mais técnicas. Descreva o que perguntas pretende endereçar cm a técnica escolhida.
 
 Planejamos utilizar técnicas estatísticas para mensurar e comparar as diferenças de expressão gênica apresentadas em cada condição da doença e indivíduos saudáveis. Pretendemos aplicar testes estatísticos clássicos tais como a Análise de Variância (ANOVA) e análise exploratória como a redução de dimensionalidade via Análise de Componentes Principais (PCA) visando a compreensão da distribuição dos dados de diferentes grupos.
 
