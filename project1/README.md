@@ -60,6 +60,12 @@ Gene Ontology | <https://geneontology.org/> | Maior fonte de informações do mu
 > Esta seção evoluirá ao longo do projeto. Nesta primeira entrega, informe técnicas de Ciência de Redes que pretende explorar,
 > tais como: detecção de comunidades, análise de centralidade, predição de links, ou a combinação de uma ou mais técnicas. Descreva o que perguntas pretende endereçar cm a técnica escolhida.
 
+Planejamos utilizar técnicas estatísticas para mensurar e comparar as diferenças de expressão gênica apresentadas em cada condição da doença e indivíduos saudáveis. Pretendemos aplicar testes estatísticos clássicos tais como a Análise de Variância (ANOVA) e análise exploratória como a redução de dimensionalidade via Análise de Componentes Principais (PCA) visando a compreensão da distribuição dos dados de diferentes grupos.
+
+Utilizaremos técnicas de ciência de redes, como **análise de centralidade** e **detecção de comunidades**, para identificar hubs críticos que nos permitam endereçar questões como o desenvolvimento de drogas tópicas hipotéticas específicas para cada tipo de lesão cutânea, bem como avaliar diferenças na susceptibilidade ao lúpus entre mulheres e homens ou pacientes estáveis e surtos. Podemos também explorar a **predição de links** combinada a **análise de centralidade** para compreender os mecanismos que levam à progressão do lúpus e identificar interações potencialmente desconhecidas, visando a detecção de proteínas-alvo que possam ter o maior efeito na prevenção da forma grave da doença.
+
+
+
 # Ferramentas
 
 É previsto o uso das seguintes ferramentas no projeto:
