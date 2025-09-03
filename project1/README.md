@@ -9,7 +9,7 @@ Este estudo busca entender a natureza do lúpus em suas manifestações mais pro
 
 # Slides
 
-[Slides da primeira apresentação](assets/slides/<XXX>.pdf)
+[Slides da primeira apresentação](assets/slides/apresentação-projeto1.pdf)
 
 # Fundamentação Teórica
 
