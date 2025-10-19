@@ -65,19 +65,6 @@ Gene Ontology | <https://geneontology.org/> | Maior fonte de informações do mu
 
 ![Modelo Lógico de Grafos](assets/images/modelo-logico.jpg)
 
-# Metodologia
-
-Planejamos utilizar técnicas estatísticas para mensurar e comparar as diferenças de expressão gênica apresentadas em cada condição da doença e indivíduos saudáveis. Pretendemos aplicar testes estatísticos clássicos tais como a Análise de Variância (ANOVA) e análise exploratória como a redução de dimensionalidade via Análise de Componentes Principais (PCA) visando a compreensão da distribuição dos dados de diferentes grupos.
-
-Utilizaremos técnicas de ciência de redes, como **análise de centralidade**, para identificar hubs críticos que nos permitam avaliar diferenças na susceptibilidade ao lúpus entre mulheres e homens ou pacientes estáveis e surtos. Podemos também explorar a **predição de links** combinada a **análise de centralidade** para compreender os mecanismos que levam à progressão do lúpus e identificar interações potencialmente desconhecidas, visando a detecção de proteínas-alvo que possam ter o maior efeito na prevenção da forma grave da doença.
-
-# Ferramentas
-
-É previsto o uso das seguintes ferramentas no projeto:
-
-- **Python** / **Jupyter Notebook**, para processamento das bases de dados e análise dos dados.
-- **Cytoscape**, para geração de grafos de redes e análise utilizando técnicas de ciência de redes.
-
 # Metodologia 
 
 Os dados utilizados neste estudo foram obtidos do banco público GEO (Gene Expression Omnibus), especificamente do dataset GSE121239, que contém informações de um estudo longitudinal de pacientes com lúpus eritematoso sistêmico (LES). Este conjunto de dados inclui perfis de expressão gênica, escores clínicos de atividade da doença (SLEDAI) e percentuais de neutrófilos.Inicialmente, as amostras foram divididas em grupos de acordo com dois critérios principais:
@@ -90,9 +77,19 @@ Para cada comparação, foi conduzida uma análise de expressão gênica diferen
 As redes obtidas foram analisadas quanto à centralidade dos nós, com o objetivo de identificar proteínas potencialmente mais influentes ou centrais nas interações moleculares relacionadas ao lúpus.
 Por fim, os resultados das análises de centralidade e interação foram integrados em uma interpretação biológica, buscando compreender os mecanismos moleculares e vias biológicas envolvidas na atividade e gravidade do lúpus eritematoso sistêmico
 
+![3d-GAN Architecture Diagram](images/3D-GAN.png)
+
+# Ferramentas
+
+É previsto o uso das seguintes ferramentas no projeto:
+
+- **Python** / **Jupyter Notebook**, para processamento das bases de dados e análise dos dados.
+- **Cytoscape**, para geração de grafos de redes e análise utilizando técnicas de ciência de redes.
+
 # Resultados Preliminares
 
-<img width="843" height="572" alt="image" src="https://github.com/user-attachments/assets/33d4d127-baa0-4aa7-8a6d-c4da8ea8e816" />
+## Lupus x Saudável 
+Foram realizados a separação dos grupos de lupus x saudável via geo2r. Utilizamos um 
 
 
 # Referências Bibliográficas
