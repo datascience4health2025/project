@@ -82,7 +82,7 @@ Esta base de dados apresenta várias amostras associadas a cada paciente, corres
 
 ## Modelo Lógico
 
-![Modelo Lógico de Grafos](assets/images/modelo-logico.jpg)
+![Modelo Lógico](assets/images/modelo-logico.png)
 
 ## Análise Preliminar
 
@@ -139,6 +139,8 @@ Particularmente, a **HNRNPU** apresentou alta centralidade e relevância biológ
 # Ferramentas
 
 - **Python** / **Jupyter Notebook**, para processamento das bases de dados e análise dos dados.
+- **GEO2R**, para análise de expressão diferencial de genes.
+- **STRING**, para obter informações sobre interação entre proteínas.
 - **Cytoscape**, para geração de grafos de redes e análise utilizando técnicas de ciência de redes.
 
 # Referências Bibliográficas
