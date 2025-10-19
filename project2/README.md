@@ -5,7 +5,7 @@
 
 O lúpus é uma doença autoimune de causa multifatorial (genética, hormonal e ambiental), ocorrendo mais comumemente em mulheres e pessoas de ascendência africana, hispânica e asiática, com o cromossomo X sendo um possível fator de risco. O LES é caracterizado por uma falha no sistema imunológico: após a morte celular, fragmentos de DNA e proteínas são erroneamente identificados como invasores, desencadeando uma resposta autoimune que causa inflamação e lesão tecidual. Essa falha está associada a alterações em genes e proteínas ligadas à apoptose. Por ser uma doença crônica e sem cura, o tratamento visa controlar os sintomas, utilizando desde protetor solar e anti-inflamatórios em casos leves, até corticosteroides e imunossupressores em quadros mais graves.
 
-Este estudo busca entender a natureza do lúpus em suas manifestações mais profundas. Primeiramente, investiga a predominância da doença em mulheres, analisando se a expressão de genes em casos graves está ligada a vias de sinalização hormonal, e qual a relevância dessa conexão. Em seguida, foca na progressão da doença, buscando identificar os grupos de genes que diferenciam pacientes estáveis dos que têm surtos recorrentes, para então compreender suas funções celulares. Por fim, o projeto tem uma abordagem terapêutica, procurando identificar um alvo proteico para uma droga que possa prevenir a evolução da forma grave da doença, e explorando se tratamentos tópicos para lesões cutâneas específicas seriam distintos.
+Este estudo busca entender a natureza do lúpus em suas manifestações mais profundas. Primeiramente, investiga a predominância da doença em mulheres, analisando se a expressão de genes em casos graves está ligada a vias de sinalização hormonal, e qual a relevância dessa conexão. Em seguida, foca na progressão da doença, buscando identificar os grupos de genes que diferenciam pacientes leves dos que têm surtos graves, para então compreender as funções celulares que estes genes exercem.
 
 # Slides
 
@@ -38,10 +38,10 @@ O lúpus é uma doença crônica e sem cura. Os tratamentos disponíveis visam a
 
 # Perguntas de Pesquisa
 
-1. Porque o lúpus afeta mais mulheres do que homens? Através dos genes mais expressos em pacientes com lúpus grave, conseguimos perceber proteínas ativadas pela rede de sinalização hormonal? Se sim, o quão central esta via de sinalização é para o lúpus?
-1. Quais grupos de genes distinguem pacientes que permanecem estáveis daqueles que evoluem para surtos repetidos? Estes genes estão relacionados a quais atividades da célula?
-1. Se eu fosse criar uma droga hipotética para evitar que lúpus evoluísse para uma forma grave, qual seria a proteína alvo que faria o maior efeito?
-1. Se eu fosse criar uma droga tópica hipotética para cada tipo de lesão cutânea (DLE, sCLE), elas seriam diferentes?
+1. Porque o lúpus afeta mais mulheres do que homens? Através dos genes mais expressos em pacientes com lúpus, conseguimos perceber proteínas ativadas pela rede de sinalização hormonal? Se sim, o quão central esta via de sinalização é para o lúpus?
+2. Quais grupos de genes distinguem pacientes com lupus de pacientes sem lupus?
+3. Quais grupos de genes distinguem pacientes que permanecem com estados clínicos leves daqueles que evoluem para surtos graves? Estes genes estão relacionados a quais atividades da célula?
+4. Se eu fosse criar uma droga hipotética para evitar que lúpus evoluísse para uma forma grave, qual seria a proteína alvo que faria o maior efeito?
 
 # Bases de Dados
 
