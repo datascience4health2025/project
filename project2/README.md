@@ -1,4 +1,4 @@
-<img width="843" height="572" alt="image" src="https://github.com/user-attachments/assets/772d17b8-a938-405b-92a6-1ab4b9246620" /># Projeto Do Gênero ao Genoma: Entendendo o Lúpus através da Visualização de Dados e Análise de Sinalização Celular
+# Projeto Do Gênero ao Genoma: Entendendo o Lúpus através da Visualização de Dados e Análise de Sinalização Celular
 # Project From Gender to Genome: Understanding Lupus through Data Visualization and Cell Signaling Analysis
 
 # Descrição Resumida do Projeto
@@ -77,7 +77,7 @@ Para cada comparação, foi conduzida uma análise de expressão gênica diferen
 As redes obtidas foram analisadas quanto à centralidade dos nós, com o objetivo de identificar proteínas potencialmente mais influentes ou centrais nas interações moleculares relacionadas ao lúpus.
 Por fim, os resultados das análises de centralidade e interação foram integrados em uma interpretação biológica, buscando compreender os mecanismos moleculares e vias biológicas envolvidas na atividade e gravidade do lúpus eritematoso sistêmico
 
-![3d-GAN Architecture Diagram](images/3D-GAN.png)
+![metodologia](metodologia.png)
 
 # Ferramentas
 
@@ -89,8 +89,12 @@ Por fim, os resultados das análises de centralidade e interação foram integra
 # Resultados Preliminares
 
 ## Lupus x Saudável 
-Foram realizados a separação dos grupos de lupus x saudável via geo2r. Utilizamos um 
+Foram realizados a separação dos grupos de lupus x saudável via geo2r. Utilizamos um limiar de p valor de 0,05 e limitamos a expressão diferencial para ser log2FC >1. Depois colocamos no string para gerar a rede de proteínas considerando apenas as interações físicas. A análise de grau e centralidade foi feita no cytoscape. 
+![volcano](volcano_plot.png)
+![degree](degree_lupus.png)
+![eigenvector](eigenvector_lupus.png)
 
+Através das análises de centralidade percebemos que 
 
 # Referências Bibliográficas
 
