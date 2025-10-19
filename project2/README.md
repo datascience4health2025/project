@@ -111,7 +111,7 @@ Alterações nesses mecanismos são recorrentes em doenças autoimunes, incluind
 ![eigenvector](eigenvector_lupus.png)
 
 
-###. Função e Relevância dos Genes Identificados
+### Função e Relevância dos Genes Identificados
 
 | **Gene** | **Função Principal** | **Impacto no Lúpus** |
 |-----------|----------------------|----------------------|
@@ -125,7 +125,7 @@ Alterações nesses mecanismos são recorrentes em doenças autoimunes, incluind
 
 ---
 
-###. Significado Biológico Geral
+### Significado Biológico Geral
 
 A predominância das **hnRNPs** entre as proteínas centrais sugere que **alterações no processamento e controle pós-transcricional do RNA** representam um **mecanismo-chave do LES**.
 
@@ -138,10 +138,6 @@ Particularmente, a **HNRNPU** apresentou alta centralidade e relevância biológ
 - **Genes ISG**, associados ao *IFN signature* do lúpus  
 - **Mecanismos epigenéticos do cromossomo X**, que podem contribuir para a **predominância feminina da doença**  
 - **Ativação da via IL-21 → linfócitos B → autoanticorpos**, sustentando a **resposta autoimune exacerbada**
-
----
-
-
 
 # Referências Bibliográficas
 
