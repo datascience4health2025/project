@@ -91,10 +91,57 @@ Por fim, os resultados das análises de centralidade e interação foram integra
 ## Lupus x Saudável 
 Foram realizados a separação dos grupos de lupus x saudável via geo2r. Utilizamos um limiar de p valor de 0,05 e limitamos a expressão diferencial para ser log2FC >1. Depois colocamos no string para gerar a rede de proteínas considerando apenas as interações físicas. A análise de grau e centralidade foi feita no cytoscape. 
 ![volcano](volcano_plot.png)
-![degree](degree_lupus.png)
+
+
+A análise de centralidade e conectividade entre proteínas de indivíduos saudáveis revelou genes com alto grau de conectividade (*degree*) e importância topológica (*eigenvector*) nas redes de interação proteína-proteína (PPI).  
+Esses genes representam **nós centrais** com papel potencialmente regulador na fisiopatologia do lúpus.
+
+## Proteínas com maior Eigenvector
+A análise de centralidade destacou um agrupamento de **ribonucleoproteínas nucleares heterogêneas (hnRNPs)** entre as proteínas mais conectadas:
+
+**HNRNPD, HNRNPH1, SRSF6, HNRNPL, HNRNPU, HNRNPR e FUS**
+
+Essas proteínas participam de processos essenciais do **metabolismo do RNA**, como:
+- *Splicing* alternativo  
+- Estabilização de mRNA  
+- Regulação da transcrição e tradução  
+
+Alterações nesses mecanismos são recorrentes em doenças autoimunes, incluindo o LES.
+
 ![eigenvector](eigenvector_lupus.png)
 
-Através das análises de centralidade percebemos que 
+
+###. Função e Relevância dos Genes Identificados
+
+| **Gene** | **Função Principal** | **Impacto no Lúpus** |
+|-----------|----------------------|----------------------|
+| **HNRNPD (AUF1)** | Regula a estabilidade de mRNAs inflamatórios (ex.: TNF e IL-6). | Sua perda leva ao acúmulo de citocinas pró-inflamatórias → **inflamação sistêmica**. |
+| **HNRNPH1** | Proteína de ligação ao pré-mRNA; atua no *splicing* alternativo e regulação pós-transcricional. | Atua como **autoantígeno** no LES e AR; autoanticorpos contra HNRNPH1 associam-se à **progressão da doença** e têm potencial como **biomarcadores**. [Zhu et al., 2025](https://doi.org/10.3390/ijms26115159) |
+| **SRSF6** | Fator de *splicing* rico em serina/arginina, regula isoformas alternativas. | Superexpressão pode modular o *splicing* de genes ligados à **resposta IFN tipo I** e apoptose. [Kosmara et al., 2023](https://doi.org/10.3390/cells12232678) |
+| **HNRNPL** | Atua no *splicing* de receptores imunes como **CD45** e receptores T. | Alterações em HNRNPL levam à **ativação exagerada de linfócitos T** e resposta autoimune aumentada. |
+| **HNRNPU (SAF-A)** | Proteína nuclear multifuncional que **ancora RNA à cromatina**, organiza a arquitetura nuclear e regula transcrição, *splicing* e reparo de DNA. | Interage com **lncRNA IL21-AS1**, promovendo **IL-21**, ativação de linfócitos B e produção de autoanticorpos. Pode também estar associada à **inativação do cromossomo X**, explicando a **predominância do lúpus em mulheres**. [Liu et al., 2025](https://doi.org/10.1371/journal.pgen.1011719) |
+| **HNRNPR** | Regula o processamento de RNA sob estresse celular. | Amplifica a **sinalização interferon-dependente** e **mecanismos inflamatórios nucleares**. |
+| **FUS** | Mantém a homeostase de RNA e forma condensados nucleares sob estresse oxidativo. | Contribui para a **formação de grânulos inflamatórios**, promovendo inflamação persistente. |
+
+---
+
+###. Significado Biológico Geral
+
+A predominância das **hnRNPs** entre as proteínas centrais sugere que **alterações no processamento e controle pós-transcricional do RNA** representam um **mecanismo-chave do LES**.
+
+Essas proteínas formam um **núcleo funcional** responsável por:
+- Regular genes interferon-dependentes (ISGs)  
+- Modular a resposta inflamatória  
+- Influenciar a organização epigenética do **cromossomo X**
+
+Particularmente, a **HNRNPU** apresentou alta centralidade e relevância biológica por conectar:
+- **Genes ISG**, associados ao *IFN signature* do lúpus  
+- **Mecanismos epigenéticos do cromossomo X**, que podem contribuir para a **predominância feminina da doença**  
+- **Ativação da via IL-21 → linfócitos B → autoanticorpos**, sustentando a **resposta autoimune exacerbada**
+
+---
+
+
 
 # Referências Bibliográficas
 
@@ -113,3 +160,9 @@ WECKERLE, C. E.; NIEWOLD, T. B. The unexplained female predominance of systemic 
 YU, H. et al. Clinical and Immunological Biomarkers for Systemic Lupus Erythematosus. **Biomolecules**, v. 11, n. 7, p. 928, 2021. Disponível em: [https://doi.org/10.3390/biom11070928](https://doi.org/10.3390/biom11070928).
 
 GLEESSE, Nadine. **O papel das proteínas apoptóticas na patogênese do lúpus eritematoso sistêmico**: uma abordagem imunogenética. 2015. Tese (Doutorado em Ciências Médicas) - Universidade Federal do Rio Grande do Sul, Porto Alegre, 2015. Disponível em: [https://lume.ufrgs.br/handle/10183/142034](https://lume.ufrgs.br/handle/10183/142034).
+
+Zhu, L. *et al.* (2025). [**hnRNPH1: A Multifaceted Regulator in RNA Processing and Disease Pathogenesis**](https://doi.org/10.3390/ijms26115159). *Int. J. Mol. Sci.*  
+Kosmara, D. *et al.* (2023). [**Extensive Alternative Splicing Patterns in Systemic Lupus Erythematosus Highlight Sexual Differences**](https://doi.org/10.3390/cells12232678). *Cells.*  
+Liu, L. *et al.* (2025). [**LncRNA IL21-AS1 interacts with hnRNPU to promote IL-21 overexpression in systemic lupus erythematosus**](https://doi.org/10.1371/journal.pgen.1011719). *PLoS Genet.*  
+[ScienceDirect – Review: RNA-binding proteins in immune regulation and autoimmunity (2021)](https://www.sciencedirect.com/science/article/pii/S0959437X21001271)  
+[Wiley – Cellular & Molecular Immunology (2022)](https://onlinelibrary.wiley.com/doi/pdf/10.1002/ctm2.1117)
