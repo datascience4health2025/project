@@ -1,4 +1,4 @@
-# Projeto Do Gênero ao Genoma: Entendendo o Lúpus através da Visualização de Dados e Análise de Sinalização Celular
+<img width="843" height="572" alt="image" src="https://github.com/user-attachments/assets/772d17b8-a938-405b-92a6-1ab4b9246620" /># Projeto Do Gênero ao Genoma: Entendendo o Lúpus através da Visualização de Dados e Análise de Sinalização Celular
 # Project From Gender to Genome: Understanding Lupus through Data Visualization and Cell Signaling Analysis
 
 # Descrição Resumida do Projeto
@@ -57,8 +57,7 @@ h. Hematológicos e Constitucionais (1 ponto cada): Febre não infecciosa, leuco
 
 Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
-Gene expression from human discoid (DLE) and subacute (sCLE) cutaneous lupus subtypes | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81071> | RNA de blocos de biópsias de pele fixados em formalina e embutidos em parafina (FFPE), extraído e processado para hibridização em microarrays da Affymetrix.
-SLE lupus RNA-seq | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE72509> | Sequenciamento de RNA (RNA-seq) de sangue PAXgene de doadores com LES e doadores saudáveis, avaliado pelo nível de anti-Ro Assinatura de Interferon.
+
 Longitudinal Stratification of Gene Expression Data Reveals Three SLE Groups of Disease Activity Progression. | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE121239> | Uma matriz de correlação foi calculada para analisar a relação entre a expressão de cada gene e a atividade da doença. Os genes mais relevantes foram selecionados para estratificar os pacientes, permitindo a realização de uma análise de agrupamento para identificar subgrupos.
 Gene Ontology | <https://geneontology.org/> | Maior fonte de informações do mundo sobre as funções dos genes.
 
@@ -70,9 +69,7 @@ Gene Ontology | <https://geneontology.org/> | Maior fonte de informações do mu
 
 Planejamos utilizar técnicas estatísticas para mensurar e comparar as diferenças de expressão gênica apresentadas em cada condição da doença e indivíduos saudáveis. Pretendemos aplicar testes estatísticos clássicos tais como a Análise de Variância (ANOVA) e análise exploratória como a redução de dimensionalidade via Análise de Componentes Principais (PCA) visando a compreensão da distribuição dos dados de diferentes grupos.
 
-Utilizaremos técnicas de ciência de redes, como **análise de centralidade** e **detecção de comunidades**, para identificar hubs críticos que nos permitam endereçar questões como o desenvolvimento de drogas tópicas hipotéticas específicas para cada tipo de lesão cutânea, bem como avaliar diferenças na susceptibilidade ao lúpus entre mulheres e homens ou pacientes estáveis e surtos. Podemos também explorar a **predição de links** combinada a **análise de centralidade** para compreender os mecanismos que levam à progressão do lúpus e identificar interações potencialmente desconhecidas, visando a detecção de proteínas-alvo que possam ter o maior efeito na prevenção da forma grave da doença.
-
-
+Utilizaremos técnicas de ciência de redes, como **análise de centralidade**, para identificar hubs críticos que nos permitam avaliar diferenças na susceptibilidade ao lúpus entre mulheres e homens ou pacientes estáveis e surtos. Podemos também explorar a **predição de links** combinada a **análise de centralidade** para compreender os mecanismos que levam à progressão do lúpus e identificar interações potencialmente desconhecidas, visando a detecção de proteínas-alvo que possam ter o maior efeito na prevenção da forma grave da doença.
 
 # Ferramentas
 
@@ -80,6 +77,23 @@ Utilizaremos técnicas de ciência de redes, como **análise de centralidade** e
 
 - **Python** / **Jupyter Notebook**, para processamento das bases de dados e análise dos dados.
 - **Cytoscape**, para geração de grafos de redes e análise utilizando técnicas de ciência de redes.
+
+# Metodologia 
+
+Os dados utilizados neste estudo foram obtidos do banco público GEO (Gene Expression Omnibus), especificamente do dataset GSE121239, que contém informações de um estudo longitudinal de pacientes com lúpus eritematoso sistêmico (LES). Este conjunto de dados inclui perfis de expressão gênica, escores clínicos de atividade da doença (SLEDAI) e percentuais de neutrófilos.Inicialmente, as amostras foram divididas em grupos de acordo com dois critérios principais:
+
+1. Lúpus versus indivíduos saudáveis
+2. Lúpus leve versus lúpus grave, com base no escore SLEDAI.
+   
+A separação dos grupos lupus e indivíduos saudáveis foi feita utilizando a ferramenta GEO2R, que permite análises estatísticas diretas a partir da base GEO. Já a separação entre os grupos com lupus leve e lúpus grave foi feita utilizando python. 
+Para cada comparação, foi conduzida uma análise de expressão gênica diferencial, a fim de identificar genes diferencialmente expressos entre os grupos. Em seguida, os genes diferencialmente expressos foram submetidos à construção de uma rede de interação proteína-proteína (PPI) por meio da plataforma STRING, possibilitando a visualização das interações funcionais entre as proteínas codificadas pelos genes identificados.
+As redes obtidas foram analisadas quanto à centralidade dos nós, com o objetivo de identificar proteínas potencialmente mais influentes ou centrais nas interações moleculares relacionadas ao lúpus.
+Por fim, os resultados das análises de centralidade e interação foram integrados em uma interpretação biológica, buscando compreender os mecanismos moleculares e vias biológicas envolvidas na atividade e gravidade do lúpus eritematoso sistêmico
+
+# Resultados Preliminares
+
+<img width="843" height="572" alt="image" src="https://github.com/user-attachments/assets/33d4d127-baa0-4aa7-8a6d-c4da8ea8e816" />
+
 
 # Referências Bibliográficas
 
