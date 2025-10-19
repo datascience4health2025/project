@@ -48,8 +48,8 @@ h. Hematológicos e Constitucionais (1 ponto cada): Febre não infecciosa, leuco
 
 # Perguntas de Pesquisa
 
-1. Porque o lúpus afeta mais mulheres do que homens? Através dos genes mais expressos em pacientes com lúpus, conseguimos perceber proteínas ativadas pela rede de sinalização hormonal? Se sim, o quão central esta via de sinalização é para o lúpus?
-2. Quais grupos de genes distinguem pacientes com lupus de pacientes sem lupus?
+1. Porque o lúpus afeta mais mulheres do que homens? Através dos genes mais expressos em pacientes com lúpus, conseguimos perceber alguma razão para esta predominância?
+2. Quais grupos de genes distinguem pacientes com lupus de pacientes sem lupus? Qual é a sua função na célula?
 3. Quais grupos de genes distinguem pacientes que permanecem com estados clínicos leves (baixo SLEDAI) daqueles que evoluem para surtos graves (alto SLEDAI)? Estes genes estão relacionados a quais atividades da célula?
 4. Se eu fosse criar uma droga hipotética para evitar que lúpus evoluísse para uma forma grave, qual seria a proteína alvo que faria o maior efeito?
 
