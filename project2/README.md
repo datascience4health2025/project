@@ -13,34 +13,44 @@ Este estudo busca entender a natureza do lúpus em suas manifestações mais pro
 
 # Fundamentação Teórica
 
-Os primeiros relatos sobre o lúpus datam da Idade Média, período em que a doença era associada a diferentes condições ulcerativas que acometiam principalmente os membros inferiores. No século XVIII, o lúpus passou a ser descrito como uma erupção nodular na face. O dermatologista húngaro Moritz Kaposi (1837–1902) descreveu duas formas distintas da doença, denominadas, na época, lúpus eritematoso discóide (LED), quando as lesões apareciam em uma única área, e lúpus eritematoso disseminado, quando as lesões acometiam múltiplas regiões do corpo. Mais tarde, Kaposi observou que pacientes com lúpus também apresentavam problemas articulares e diversos sintomas agravantes que frequentemente resultavam na morte do paciente. Essa forma passou a ser conhecida como lúpus eritematoso sistêmico (LES).
+O lúpus é uma doença autoimune inflamatória crônica que pode afetar múltiplos órgãos, pele, articulações, rins, coração e sistema nervoso.
 
-No início da década de 1920, surgiram diversos relatos médicos descrevendo manifestações sistêmicas do lúpus, afetando órgãos como o coração e os rins. Em 1950, a identificação da fração plasmática das células de lúpus representou um grande avanço no diagnóstico da doença. Ao longo do século XX, outras descobertas foram relatadas, incluindo formas induzidas por medicamentos e a forma congênita da doença.
+Do ponto de vista imunológico, o LES resulta de uma falha nos mecanismos de tolerância imune, frequentemente associada a apoptose anormal. Quando as células morrem, fragmentos de DNA e nucleossomos permanecem expostos e são captados por células apresentadoras de antígeno (APCs), que passam a apresentá-los como se fossem invasores. Esse evento ativa linfócitos T autorreativos, que por sua vez estimulam linfócitos B a produzirem autoanticorpos contra o próprio DNA e proteínas nucleares. A formação de imunocomplexos e sua deposição em tecidos leva à inflamação persistente, ativação do sistema complemento e lesão tecidual. Estudos mostram que essa perda de tolerância está associada a alterações genéticas e funcionais em proteínas-chave das vias extrínseca e intrínseca da apoptose, como Fas, FasL, Bax, Bcl-2 e p53, bem como em seus genes reguladores. A expressão modificada desses genes em células T CD4+ e CD8+, acompanhada por altas taxas de apoptose, contribui para a desregulação das vias apoptóticas e, consequentemente, para a quebra da tolerância imunológica periférica que caracteriza o desenvolvimento do LES.
 
-De acordo com o Ministério da Saúde, o lúpus “é uma doença inflamatória autoimune, que pode afetar múltiplos órgãos e tecidos, como pele, articulações, rins e cérebro”. Embora sua causa ainda seja indeterminada, sabe-se que há relação com fatores genéticos, hormonais, infecciosos e ambientais. Atualmente, são descritas quatro manifestações clínicas principais:
+O diagnóstico é mais frequente entre os 15 e 40 anos, mas pode ocorrer em qualquer faixa etária. É mais comum entre pessoas afro-americanas, hispânicas e asiáticas. Dados epidemiológicos indicam que a incidência chega a ser três a quatro vezes maior em mulheres negras do que em mulheres brancas. De modo geral, a doença acomete mais mulheres do que homens. A razão para a predominância do lupus em mulheres ainda não é totalmente compreendida, mas há fortes evidências de que esteja relacionada ao processo de inativação do segundo cromossomo X por meio da molécula Xist. Trata-se de um RNA não codificador (ncRNA) presente em fêmeas de mamíferos, responsável pela inativação de um dos cromossomos X. No entanto, essa inativação não é completa, e alguns genes permanecem ativos. Estudos indicam que a ação da Xist, combinada à suscetibilidade genética, favorece o desenvolvimento de autoanticorpos e de doenças autoimunes como o lúpus.
 
-1. **Lúpus discoide (ou cutâneo)** – lesão restrita à pele, principalmente na face, nuca e couro cabeludo;
-1. **Lúpus sistêmico** – forma generalizada, que afeta diferentes órgãos;
-1. **Lúpus induzido por medicamentos**;
-1. **Lúpus neonatal**.
-
-Embora não exista uma causa única definida, o desenvolvimento das manifestações clínicas está relacionado a gatilhos ambientais, como exposição à luz solar, uso de determinados medicamentos, infecções e estresse.
-
-O diagnóstico é mais frequente entre os 15 e 40 anos, mas pode ocorrer em qualquer faixa etária. É mais comum entre pessoas afro-americanas, hispânicas e asiáticas. Dados epidemiológicos indicam que a incidência chega a ser três a quatro vezes maior em mulheres negras do que em mulheres brancas. De modo geral, a doença acomete mais mulheres do que homens. A razão para essa predominância feminina ainda não é totalmente compreendida, mas há fortes evidências de que esteja relacionada ao processo de inativação do segundo cromossomo X por meio da molécula Xist. Trata-se de um RNA não codificador (ncRNA) presente em fêmeas de mamíferos, responsável pela inativação de um dos cromossomos X. No entanto, essa inativação não é completa, e alguns genes permanecem ativos. Estudos indicam que a ação da Xist, combinada à suscetibilidade genética, favorece o desenvolvimento de autoanticorpos e de doenças autoimunes como o lúpus.
-
-A versão sistêmica do lúpus provém de uma falha no mecanismo de defesa do organismo que resulta em uma doença inflamatória crônica, capaz de afetar múltiplos órgãos e sistemas. Essa condição decorre de um processo de apoptose atípico: quando as células morrem, fragmentos de DNA e nucleossomos permanecem expostos e são captados por células apresentadoras de antígeno, que passam a apresentá-los como se fossem invasores. Esse evento ativa linfócitos T autorreativos, que por sua vez estimulam linfócitos B a produzirem autoanticorpos contra o próprio DNA e proteínas nucleares. A formação de imunocomplexos e sua deposição em tecidos leva à inflamação persistente, ativação do sistema complemento e lesão tecidual. Estudos mostram que essa perda de tolerância está associada a alterações genéticas e funcionais em proteínas-chave das vias extrínseca e intrínseca da apoptose, como Fas, FasL, Bax, Bcl-2 e p53, bem como em seus genes reguladores. A expressão modificada desses genes em células T CD4+ e CD8+, acompanhada por altas taxas de apoptose, contribui para a desregulação das vias apoptóticas e, consequentemente, para a quebra da tolerância imunológica periférica que caracteriza o desenvolvimento do LES.
-
-Os sintomas e a progressão da doença variam de acordo com o órgão acometido e com a eficácia do tratamento. As crises geralmente ocorrem de forma esporádica, com sintomas agudos que podem melhorar ou desaparecer temporariamente. Entre os principais sintomas estão: febre, fadiga, dor nas articulações, inchaço muscular, sensibilidade à luz solar, linfonodos aumentados, queda de cabelo, feridas na boca e rash cutâneo — uma mancha avermelhada nas bochechas e no nariz, em forma de borboleta. As lesões tendem a piorar com a exposição ao sol. Quando não tratado adequadamente, o lúpus pode causar complicações graves e até levar o paciente a óbito. As complicações mais comuns incluem: falência renal, alterações neurológicas (como tontura, mudanças de comportamento, alucinações e derrames cerebrais), além de vasculite, pleurisia, pericardite, entre outras.
-
-O diagnóstico do lúpus ainda representa um desafio, devido à ausência de testes específicos e à grande variedade de sintomas clínicos. Ele é feito por meio de avaliação física, hemograma, exames de urina e testes de anticorpos. O avanço na pesquisa de biomarcadores proporcionou importantes melhorias no processo diagnóstico. Em 2019, os critérios de classificação do LES foram ampliados e refinados pela Aliança Europeia de Associações de Reumatologia (EULAR) em parceria com o Colégio Americano de Reumatologia (ACR). Entre os principais biomarcadores utilizados estão: avaliação da proteinúria, contagem de glóbulos brancos, presença de anemia hemolítica, e níveis de anticorpos antinucleares (ANA), anti-DNA e anti-Sm.
+Clinicamente, o lúpus manifesta-se por fadiga, febre, artralgia, fotossensibilidade, alopecia, linfadenopatia e rash malar em “asa de borboleta”. Em casos graves, podem ocorrer nefrites, vasculites, pleurites, pericardites e alterações neurológicas. O diagnóstico é desafiador e baseado em critérios clínicos e laboratoriais definidos pela EULAR/ACR (2019), incluindo a presença de anticorpos antinucleares (ANA), anti-DNA e anti-Sm, além de achados hematológicos e renais.
 
 O lúpus é uma doença crônica e sem cura. Os tratamentos disponíveis visam apenas ao controle dos sintomas. Desde 1950, os corticosteroides passaram a ser utilizados como ferramenta terapêutica. Em casos mais leves, são empregados anti-inflamatórios não esteroides, protetor solar e corticosteroides tópicos para as lesões cutâneas. Já em quadros graves, são necessárias drogas imunossupressoras e agentes citotóxicos.
+
+## Avaliação Clínica e Índice de Atividade SLEDAI
+O curso clínico do LES é marcado por períodos de atividade e remissão, exigindo um acompanhamento constante. Para mensurar a atividade inflamatória sistêmica, foram desenvolvidos índices padronizados, entre eles o ECLAM, SLAM, BILAG e o SLEDAI (Systemic Lupus Erythematosus Disease Activity Index), o mais utilizado mundialmente. Este índice avalia 24 parâmetros clínicos e laboratoriais observados nos últimos 10 dias. Cada item recebe uma pontuação fixa (1, 2, 4 ou 8), de acordo com sua gravidade e impacto fisiopatológico. A soma total define o grau de atividade da doença:
+
+- SLEDAI 1–5: atividade leve
+- SLEDAI 6–10: atividade moderada
+- SLEDAI 11–19: atividade alta
+- SLEDAI ≥ 20: atividade muito alta
+
+Embora o escore máximo teórico seja 105, valores tão altos são raros na prática clínica. O SLEDAI-2K também permite a contagem de alguns achados persistentes (como proteinúria, rash ou alopecia), que na versão original eram contabilizados apenas quando novos.
+
+### Parâmetros clínicos e laboratoriais avaliados no SLEDAI
+Os 24 descritores do SLEDAI abrangem 8 sistemas orgânicos, avaliando manifestações inflamatórias ativas atribuíveis exclusivamente ao lúpus (excluindo causas infecciosas, metabólicas ou medicamentosas)
+
+a. Sistema Nervoso Central (8 pontos cada): Inclui convulsões, psicose, acidente vascular cerebral, cefaleia lúpica e neuropatias cranianas, manifestações que refletem inflamação neurovascular autoimune.
+b. Sistema Vascular (8 pontos) : Vasculite sistêmica caracterizada por úlceras, nódulos, gangrena digital ou achados angiográficos inflamatórios.
+c. Sistema Musculoesquelético (4 pontos cada): Abrange artrite inflamatória em múltiplas articulações e miosite confirmada clinicamente ou por exames laboratoriais.
+d. Sistema Renal (4 pontos cada): Avalia proteinúria, hematúria, piúria e presença de cilindros urinários, indicadores de nefropatia lúpica ativa.
+e. Sistema Cutâneo e Mucoso (2 pontos cada): Inclui rash cutâneo, alopecia e úlceras orais ou nasais, representando atividade periférica da doença.
+f. Serosas (2 pontos cada): Pleurite e pericardite, evidenciadas por dor torácica, atrito, derrame ou alterações ecocardiográficas.
+g. Imunológicos (2 pontos cada): Redução de C3, C4 ou CH50 e elevação de anticorpos anti-DNA de fita dupla, indicando reativação imunológica sistêmica.
+h. Hematológicos e Constitucionais (1 ponto cada): Febre não infecciosa, leucopenia e trombocitopenia, expressando resposta inflamatória sistêmica e autoimune ativa.
+
 
 # Perguntas de Pesquisa
 
 1. Porque o lúpus afeta mais mulheres do que homens? Através dos genes mais expressos em pacientes com lúpus, conseguimos perceber proteínas ativadas pela rede de sinalização hormonal? Se sim, o quão central esta via de sinalização é para o lúpus?
 2. Quais grupos de genes distinguem pacientes com lupus de pacientes sem lupus?
-3. Quais grupos de genes distinguem pacientes que permanecem com estados clínicos leves daqueles que evoluem para surtos graves? Estes genes estão relacionados a quais atividades da célula?
+3. Quais grupos de genes distinguem pacientes que permanecem com estados clínicos leves (baixo SLEDAI) daqueles que evoluem para surtos graves (alto SLEDAI)? Estes genes estão relacionados a quais atividades da célula?
 4. Se eu fosse criar uma droga hipotética para evitar que lúpus evoluísse para uma forma grave, qual seria a proteína alvo que faria o maior efeito?
 
 # Bases de Dados
