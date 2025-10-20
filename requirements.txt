@@ -1,0 +1,6 @@
+GEOparse
+ipykernel
+numpy
+pandas
+plotly
+scipy
