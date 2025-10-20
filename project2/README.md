@@ -9,7 +9,7 @@ Este estudo busca entender a natureza do lúpus em suas manifestações mais pro
 
 # Slides
 
-[Slides da primeira apresentação](assets/slides/apresentação-projeto1.pdf)
+[Slides da segunda apresentação](assets/slides/apresentação-projeto2.pdf)
 
 # Fundamentação Teórica
 
@@ -94,6 +94,14 @@ Foi realizada a separação dos grupos de pacientes com lúpus versus indivíduo
 
 A análise de centralidade e conectividade entre proteínas de indivíduos saudáveis revelou genes com alto grau de conectividade (*degree*) e importância topológica (*eigenvector*) nas redes de interação proteína-proteína (PPI). Esses genes representam **nós centrais** com papel potencialmente regulador na fisiopatologia do lúpus.
 
+### Lúpus Leve x Lúpus Medio/Grave
+
+Devido a baixa amostragem de pacientes com SLEDAI grave (maiores que 11), optou-se por agrupar os tipos médios e graves para evitar viéses em análises futuras.
+
+<img width="896" height="326" alt="image" src="https://github.com/user-attachments/assets/5d3d2848-d8de-4b4b-9b15-d80234b0cfcc" />
+
+Além disso, o dataset trabalha com dados longitudinais, onde cada paciente possui diversas observações de idas ao médio ao longo do tempo, com diferentes valores de SLEDAI atrelados. Como a base de dados já é suficientemente grande e desproporcional em termos da quantidade de amostras leves e médias/graves, optou-se por selecionar apenas a observação com maior valor de SLEDAI por paciente.
+
 ### Proteínas com maior Eigenvector
 
 A análise de centralidade destacou um agrupamento de **ribonucleoproteínas nucleares heterogêneas (hnRNPs)** entre as proteínas mais conectadas: **HNRNPD, HNRNPH1, SRSF6, HNRNPL, HNRNPU, HNRNPR e FUS**.
@@ -135,6 +143,18 @@ Particularmente, a **HNRNPU** apresentou alta centralidade e relevância biológ
 - **Genes ISG**, associados ao *IFN signature* do lúpus
 - **Mecanismos epigenéticos do cromossomo X**, que podem contribuir para a **predominância feminina da doença**
 - **Ativação da via IL-21 → linfócitos B → autoanticorpos**, sustentando a **resposta autoimune exacerbada**
+
+# GEOparse
+
+Existe uma biblioteca chamada GEOparse, disponível em Python, para baixar e tratar diretamente os dados vindos do repositório GEO, sem a necessidade de baixar os dados de maneira externa. Com isso, os dados ficam encapsulados em um objeto contendo os metadados tanto dos pacientes como da expressão gênica de cada paciente. De forma a aproveitar esse recurso, juntamente com o pré processamento específico para tratar os dados de Lúpus, foi construída uma classe GeoParser que absorve os métodos disponíveis na biblioteca original. Com isso, através de apenas duas linhas de código, ambos os dataframes são gerados formatados, pronto para serem analisados.
+
+```python 
+# Cria objeto parser
+parser = GEOParser(geo_id="GSE121239", destdir="../../data/raw/", meta_map=meta_map)
+
+# Parse dos dados e armazena em tabelas
+gene_data, patient_data = parser.parse()
+```
 
 # Ferramentas
 
