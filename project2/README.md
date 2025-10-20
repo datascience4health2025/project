@@ -94,16 +94,7 @@ Foi realizada a separação dos grupos de pacientes com lúpus versus indivíduo
 
 A análise de centralidade e conectividade entre proteínas de indivíduos saudáveis revelou genes com alto grau de conectividade (*degree*) e importância topológica (*eigenvector*) nas redes de interação proteína-proteína (PPI). Esses genes representam **nós centrais** com papel potencialmente regulador na fisiopatologia do lúpus.
 
-### Lúpus Leve x Lúpus Medio/Grave
-
-Devido a baixa amostragem de pacientes com SLEDAI grave (maiores que 11), optou-se por agrupar os tipos médios e graves para evitar viéses em análises futuras.
-
-![sledai_distrib](assets/images/sledai_distrib.png)
-![sledai_distrib_grouped](assets/images/sledai_distrib_grouped.png)
-
-Além disso, o dataset trabalha com dados longitudinais, onde cada paciente possui diversas observações de idas ao médio ao longo do tempo, com diferentes valores de SLEDAI atrelados. Como a base de dados já é suficientemente grande e desproporcional em termos da quantidade de amostras leves e médias/graves, optou-se por selecionar apenas a observação com maior valor de SLEDAI por paciente.
-
-### Proteínas com maior Eigenvector
+#### Proteínas com maior Eigenvector
 
 A análise de centralidade destacou um agrupamento de **ribonucleoproteínas nucleares heterogêneas (hnRNPs)** entre as proteínas mais conectadas: **HNRNPD, HNRNPH1, SRSF6, HNRNPL, HNRNPU, HNRNPR e FUS**.
 
@@ -145,9 +136,25 @@ Particularmente, a **HNRNPU** apresentou alta centralidade e relevância biológ
 - **Mecanismos epigenéticos do cromossomo X**, que podem contribuir para a **predominância feminina da doença**
 - **Ativação da via IL-21 → linfócitos B → autoanticorpos**, sustentando a **resposta autoimune exacerbada**
 
-# GEOparse
+### Lúpus Leve x Lúpus Medio/Grave
 
-Existe uma biblioteca chamada GEOparse, disponível em Python, para baixar e tratar diretamente os dados vindos do repositório GEO, sem a necessidade de baixar os dados de maneira externa. Com isso, os dados ficam encapsulados em um objeto contendo os metadados tanto dos pacientes como da expressão gênica de cada paciente. De forma a aproveitar esse recurso, juntamente com o pré processamento específico para tratar os dados de Lúpus, foi construída uma classe GeoParser que absorve os métodos disponíveis na biblioteca original. Com isso, através de apenas duas linhas de código, ambos os dataframes são gerados formatados, pronto para serem analisados.
+Devido à baixa amostragem de pacientes com SLEDAI grave (maior que 11), como mostrado nos gráficos a seguir, optou-se por agrupar os tipos médios e graves para evitar viéses em análises futuras.
+
+![sledai_distrib](assets/images/sledai_distrib.png)
+![sledai_distrib_grouped](assets/images/sledai_distrib_grouped.png)
+
+Além disso, o dataset trabalha com dados longitudinais, onde cada paciente possui diversas observações ao longo do tempo, com diferentes valores de SLEDAI atrelados. Como a base de dados já é suficientemente grande e desproporcional em termos da quantidade de amostras leves e médias/graves, optou-se por selecionar apenas a observação com maior valor de SLEDAI por paciente.
+
+# Ferramentas
+
+- **Python** / **Jupyter Notebook**, para processamento das bases de dados e análise dos dados.
+- **GEO2R**, para análise de expressão diferencial de genes.
+- **STRING**, para obter informações sobre interação entre proteínas.
+- **Cytoscape**, para geração de grafos de redes e análise utilizando técnicas de ciência de redes.
+
+## GEOparse
+
+Existe uma biblioteca chamada GEOparse, disponível em Python, para baixar e tratar diretamente os dados vindos do repositório GEO, sem a necessidade de baixar os dados de maneira externa. Com isso, os dados ficam encapsulados em um objeto contendo os metadados tanto dos pacientes como da expressão gênica de cada paciente. De forma a aproveitar esse recurso, juntamente com o pré-processamento específico para tratar os dados de Lúpus, foi construída uma classe `GeoParser` que absorve os métodos disponíveis na biblioteca original. Com isso, através de apenas duas linhas de código, ambos os dataframes são gerados formatados, pronto para serem analisados.
 
 ```python 
 # Cria objeto parser
@@ -156,13 +163,6 @@ parser = GEOParser(geo_id="GSE121239", destdir="../../data/raw/", meta_map=meta_
 # Parse dos dados e armazena em tabelas
 gene_data, patient_data = parser.parse()
 ```
-
-# Ferramentas
-
-- **Python** / **Jupyter Notebook**, para processamento das bases de dados e análise dos dados.
-- **GEO2R**, para análise de expressão diferencial de genes.
-- **STRING**, para obter informações sobre interação entre proteínas.
-- **Cytoscape**, para geração de grafos de redes e análise utilizando técnicas de ciência de redes.
 
 # Referências Bibliográficas
 
