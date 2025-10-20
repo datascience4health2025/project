@@ -98,7 +98,8 @@ A análise de centralidade e conectividade entre proteínas de indivíduos saud�
 
 Devido a baixa amostragem de pacientes com SLEDAI grave (maiores que 11), optou-se por agrupar os tipos médios e graves para evitar viéses em análises futuras.
 
-<img width="896" height="326" alt="image" src="https://github.com/user-attachments/assets/5d3d2848-d8de-4b4b-9b15-d80234b0cfcc" />
+![sledai_distrib](assets/images/sledai_distrib.png)
+![sledai_distrib_grouped](assets/images/sledai_distrib_grouped.png)
 
 Além disso, o dataset trabalha com dados longitudinais, onde cada paciente possui diversas observações de idas ao médio ao longo do tempo, com diferentes valores de SLEDAI atrelados. Como a base de dados já é suficientemente grande e desproporcional em termos da quantidade de amostras leves e médias/graves, optou-se por selecionar apenas a observação com maior valor de SLEDAI por paciente.
 
