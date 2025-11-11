@@ -104,7 +104,9 @@ Essas proteínas participam de processos essenciais do **metabolismo do RNA**, c
 - Estabilização de mRNA
 - Regulação da transcrição e tradução
 
-Alterações nesses mecanismos são recorrentes em doenças autoimunes, incluindo o LES.
+Alterações nesses mecanismos são recorrentes em doenças autoimunes, incluindo o LES. Além disto, percebemos que estas proteínas centrais estão conectadas com proteínas como: 
+- IFIT1 e IFIT3, que são proteínas induzidas por intérferon (ativadas pela resposta imune),
+- CANX, que também funciona como uma chaperona para o dobramento da cadeia α do MHC de classe I 
 
 ![eigenvector](assets/images/eigenvector_lupus.png)
 
@@ -124,7 +126,14 @@ Alterações nesses mecanismos são recorrentes em doenças autoimunes, incluind
 
 #### Significado Biológico Geral
 
-A predominância das **hnRNPs** entre as proteínas centrais sugere que **alterações no processamento e controle pós-transcricional do RNA** representam um **mecanismo-chave do LES**. Essas proteínas formam um **núcleo funcional** responsável por:
+A predominância das **hnRNPs** entre as proteínas centrais sugere que **alterações no processamento e controle pós-transcricional do RNA** representam um **mecanismo-chave do LES**. 
+Ao observarmos a que estas proteínas estão conectadas, percebemos queestas proteínas centrais estão conectadas com proteínas como: 
+- IFIT1 e IFIT3, proteínas induzidas por interferon tipo I (ISGs), que participam da resposta antiviral e inflamatória mediada por IRF7 e JAK/STAT, frequentemente exacerbada em pacientes com LES;
+- CANX (calnexina), chaperona do retículo endoplasmático envolvida no dobramento e montagem de glicoproteínas do MHC classe I, essencial para a apresentação de antígenos e reconhecimento imunológico;
+- MAPK3 (ERK1), quinase ativada em vias de proliferação e diferenciação celular, possivelmente relacionada à expansão de linfócitos B autorreativos e à hiperprodução de autoanticorpos;
+- MYC, um regulador transcricional multifuncional que controla crescimento celular, metabolismo e ativação imune, e cuja superexpressão pode reforçar o estado de ativação imune sustentada típico do LES.
+
+Essas proteínas formam um **núcleo funcional** responsável por:
 
 - Regular genes interferon-dependentes (ISGs)
 - Modular a resposta inflamatória
