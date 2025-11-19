@@ -1,82 +1,189 @@
-# Projeto de Curso – Entrega Final
+# P3 - Template da Terceira Entrega - Final
+*2025.1 Ciência e Visualização de Dados em Saúde*
 
-* Ciência e Visualização de Dados em Saúde 2025
-* UNICAMP
+# Estrutura de sua pasta de projeto
 
-# Resumo
+A fim de uniformizar os repositórios de projetos da disciplina, os diretórios de seu repositório deverão ser nomeados conforme segue.
 
-O objetivo geral do projeto de curso é realizar a análise de dados relacionados à saúde, aliada às seguintes possíveis tarefas: recomendação, estudo de associações, validação de hipóteses, análise exploratória, análise visual, análise comparativa e predição.
+A estrutura aqui apresentada é uma simplificação daquela proposta pelo [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/). Também será aceito que o projeto adote a estrutura completa do Cookiecutter Data Science e isso será considerado um diferencial. A estrutura geral é a seguinte e será detalhada a seguir:
 
-O problema escolhido deve ser no contexto das "ômicas" e a análise de dados deve usar estratégias de Ciência de Redes. Esta segunda entrega intermediária tem a função de apresentar o andamento dos trabalhos, debater dificuldades, redirecionamentos, avanços e novas ideias. O que for apresentado nesta versão pode ser modificado e melhorado na entrega final.
+~~~
+...
+│
+└── project3-final
+    |
+    ├── README.md  <- texto da Entrega 3 do projeto
+    │
+    ├── data
+    │   ├── external       <- dados de terceiros em formato usado para entrada na transformação
+    │   ├── interim        <- dados intermediários, e.g., resultado de transformação
+    │   ├── processed      <- dados finais usados para a publicação
+    │   └── raw            <- dados originais sem modificações
+    │
+    ├── pipelines
+    │   ├── notebooks      <- Jupyter notebooks ou equivalentes
+    │   └── workflows      <- workflows Orange ou equivalentes 
+    |
+    ├── src                <- fonte em linguagem de programação ou sistema (e.g., Cytoscape)
+    │   └── README.md      <- instruções básicas de instalação/execução
+    │
+    └── assets             <- mídias usadas no projeto
+        ├── images         <- imagens usadas no texto do README.md
+        └── slides         <- slides em PDF
+~~~
 
-# Fontes de Dados
+Na raiz da pasta `project3-final` deve haver um arquivo de nome `README.md` contendo a apresentação do projeto, como detalhado na seção seguinte.
 
-O trabalho poderá usar fontes de dados públicas ou provenientes de pesquisa de um ou mais componentes da equipe. No segundo caso, a equipe deverá apresentar o número do CAAE referente à aprovação do comitê de ética, quando couber. A equipe de docentes pode vetar algum projeto caso configure alguma impertinência ética.
+## `data`
 
-As fontes de dados não precisam ser originalmente em formato de rede, pois as redes podem ser construídas a partir dos dados dessas fontes. Também é possível e positivo integrar dados de “ômicas” com dados de outras naturezas. Por exemplo, dados de sintomas de uma doença com dados genéticos associados à mesma.
+Arquivos de dados usados no projeto, quando isso ocorrer.
 
-É importante considerar cenários que contenham um número significativo de dados na base que será criada, que justifiquem um banco de dados.
+## `pipelines`
 
-# Diferenciais do Projeto
+Processos implementados no projeto que tenham sido executados em algum mecanismo de workflow, como o Orange, ou de notebook, como o Jupyter ou R.
 
-O projeto pode escolher um ou mais dos seguintes diferenciais:
+## `src`
 
-* criatividade;
-* originalidade;
-* audácia em propostas desafiadoras;
-* integração de mais de uma fonte de dados;
-* recursos de visualização de dados;
-* integração entre os papéis da equipe.
+Coloque aqui os projetos em Cytoscape. Além disso, código implementado em alguma linguagem de programação, se houver, além dos workflows e notebooks.
 
-É muito importante considerar que serão valorizadas equipes que arrisquem em análises ousadas, às quais não se saiba se se alcançará o resultado esperado. Equipes podem obter nota máxima, mesmo que não alcancem o resultado esperado, considerando que apresentem um trabalho bem fundamentado, audacioso, que demonstre integração entre os componentes.
+Projeto na linguagem escolhida caso não seja usado o notebook, incluindo todos os arquivos de dados e bibliotecas necessários para a sua execução. Só coloque código Python ou Java aqui se ele não rodar dentro do notebook.
 
-# Entrega Final
+Acrescente na raiz um arquivo `README.md` com as instruções básicas de instalação e execução.
 
-Na entrega final a equipe deve apresentar pelo menos os tópicos sugeridos abaixo. Alguns deles já foram apresentados na primeira e segunda etapas e devem ser reapresentados - iguais, se não houve mudança, ou revisados:
+## `assets`
 
-* slides de apresentação da entrega final;
-* resumo da proposta;
-* perguntas de pesquisa a serem respondidas;
-* metodologia;
-* ferramentas;
-* fundamentação teórica do problema em saúde/biologia;
-* bases de dados de fonte escolhidas;
-* modelo lógico da base de grafos que será construída;
-* detalhamento do processo e resultados obtidos;
-* discussão dos resultados;
-* conclusões;
-* trabalhos futuros.
+Qualquer mídia usada no seu projeto: vídeo, imagens, animações, slides etc. Coloque os arquivos aqui (mesmo que você mantenha uma cópia no diretório do código).
 
-# Equipes
+-----
 
-As equipes deverão ter 6 componentes (no mínimo 5) se possível divididos cerca de 2 biologia/saúde e 4 exatas/computação.
+## `README.md` da raiz do `project3-final`
 
-# Papéis
+Segue abaixo o modelo de como deve ser apresentado e documentado o projeto. Há partes do modelo a seguir que têm uma marcação específica indicando que **não devem ser literalmente transcritas**:
 
-O desenvolvimento do trabalho prevê papéis distintos para alunos de biologia e saúde e aqueles de computação e exatas. Cada aluno da equipe será avaliado conforme o seu papel dentro do trabalho, portanto as notas serão individuais dentro da equipe e poderão sofrer variações.
+Trecho entre `<...>` representa algo que deve ser substituído pelo indicado. Nesse caso, você não deve manter os símbolos `<...>`.
+> Parágrafos que aparecem neste modo de citação representa algo que deve ser substituído pelo explicado.
 
-## Papel de Biologia e Saúde
+No modelo a seguir são colocados exemplos ilustrativos, que serão substituídos pelos do seu projeto.
 
-São os responsáveis pela fundamentação do ponto de vista da saúde/biologia em partes do trabalho como: aspectos relacionados à biologia/saúde para a escolha do problema e solução, fundamentação teórica em biologia/saúde, textos apresentados relacionados à biologia saúde. Estes aspectos e os respectivos alunos serão avaliados pelos professores da biologia. 
+> # Modelo para Apresentação da Entrega 3 do Projeto (Arquivo README.md)
 
-## Papel de Computação e Exatas
+# Projeto `<Título em Português>`
+# Project `<Title in English>`
 
-São responsáveis por aspectos computacionais como: escolha das soluções computacionais, implementação dos algoritmos e textos relacionados a aspectos computacionais.
+# Descrição Resumida do Projeto
 
-## Atribuições Compartilhadas
+> Descrição resumida do tema do projeto. Sugestão de roteiro (cada item tipicamente tratado em uma ou poucas frases):
+>
+> Contextualização do projeto
+>
+> Caracterização do problema
+>
+> Motivação
+>
+> Relevância
+>
+> Trabalhos relacionados
+>
+> Indicação (bastante resumida) da análise proposta
+>
+> Indicação (bastante resumida) dos resultados alcançados
 
-Algumas atribuições são compartilhadas por se entender que é fruto da interação entre os papéis, como: modelo lógico do grafo,  debates e conclusões de resultados de análises.
+# Slides
 
-# Entrega e Apresentação
+> Coloque aqui o link para o PDF da apresentação da parte 3.
 
-A entrega do projeto deve ser feita via GitHub. Para isso a equipe deve:
+# Fundamentação Teórica
 
-* usar a mesma organização e projeto no GitHub da etapa anterior;
-* atualize (se necessário) o arquivo README.md na raiz do projeto;
-* crie uma pasta `project3-final` na raiz do projeto e coloque a terceira entrega dentro desta pasta conforme [Modelo da Terceira Entrega](/resources/templates/2025/project3-final/).
+> Fundamentação teórica do problema em saúde/biologia. Cite artigos tomados como base e em que problema.
 
-A submissão da entrega 3 será dividida em duas partes: slides até o dia **12/11 às 7:59 am** e texto no GitHub até **24/11**.
+# Perguntas de Pesquisa
+> Perguntas de pesquisa (revisadas e atualizadas) que o projeto responde ou hipóteses que foram avaliadas, enunciadas de maneira objetiva e verificável.
+> Apresente aqui como o projeto ajudou a responder as perguntas de pesquisa.
 
-A apresentação será no dia da submissão dos slides **12/11** no horário da aula. Cada equipe terá 20 minutos para se apresentar e haverá mais 10 minutos para perguntas/respostas. Todos os membros da equipe devem participar apresentando.
+# Metodologia
+> Proposta de metodologia incluindo especificação de quais as técnicas/métricas de Ciência de Redes que estão sendo usadas no projeto,
+> tais como: detecção de comunidades, análise de centralidade, predição de links, ou a combinação de uma ou mais técnicas. Descreva o que perguntas pretende endereçar com a técnica escolhida.
 
-É muito importante que a equipe organize o tempo de forma a detalhar mais o que for mais relevante de modo que possa receber feedback.
+## Bases de Dados e Evolução
+
+> Para cada base, coloque uma entrada na tabela no modelo a seguir e depois detalhamento sobre como ela foi analisada/usada, conforme exemplo a seguir.
+
+> Base de Dados | Endereço na Web | Resumo descritivo
+> ----- | ----- | -----
+> Título da Base 1 | http://base1.org/ | Breve resumo (duas ou três linhas) sobre a base.
+> Título da Base 2 | http://base2.org/ | Breve resumo (duas ou três linhas) sobre a base.
+
+> Faça uma descrição sobre o que concluiu sobre esta base. Sugere-se que respondam perguntas ou forneçam informações indicadas a seguir:
+> * O que descobriu sobre essa base?
+> * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
+
+## Modelo Lógico
+
+> Modelo lógico da base de grafos revisado. Para o modelo de grafos de propriedades, utilize este
+> [modelo de base](https://docs.google.com/presentation/d/10RN7bDKUka_Ro2_41WyEE76Wxm4AioiJOrsh6BRY3Kk/edit?usp=sharing) para construir o seu.
+> Coloque a imagem do PNG do seu modelo lógico como ilustrado abaixo (a imagem estará na pasta `image`):
+>
+> ![Modelo Lógico de Grafos](images/modelo-logico-grafos.png)
+
+## Integração entre Bases
+
+> Descreva se houve desafios de integração de fontes de dados e etapas para a mesma.
+
+## Análises Realizadas
+
+> Apresente aqui uma análise dos dados.
+> Utilize gráficos que descrevam os aspectos principais da base que são relevantes para as perguntas de pesquisa consideradas.
+>
+> Nesta seção ou na seção de Resultados podem aparecer destaques de código como indicado a seguir. Note que foi usada uma técnica de highlight de código, que envolve colocar o nome da linguagem na abertura de um trecho com `~~~`, tal como `~~~python`.
+>
+> Os destaques de código devem ser trechos pequenos de poucas linhas, que estejam diretamente ligados a alguma explicação. Não utilize trechos extensos de código. Se algum código funcionar online (tal como um Jupyter Notebook), aqui pode haver links. No caso do Jupyter, preferencialmente para o Binder abrindo diretamente o notebook em questão.
+
+~~~python
+df = pd.read_excel("/content/drive/My Drive/Colab Notebooks/dataset.xlsx");
+sns.set(color_codes=True);
+sns.distplot(df.Hemoglobin);
+plt.show();
+~~~
+
+## Evolução do Projeto
+
+> Relatório de evolução, descrevendo as evoluções na modelagem do projeto, dificuldades enfrentadas, mudanças de rumo, melhorias e lições aprendidas. Referências aos diagramas, modelos e recortes de mudanças são bem-vindos.
+> Podem ser apresentados destaques na evolução do modelo lógico. O modelo inicial e intermediários (quando relevantes) e explicação de refinamentos, mudanças ou evolução do projeto que fundamentaram as decisões.
+> Relatar o processo para se alcançar os resultados é tão importante quanto os resultados.
+
+# Ferramentas
+
+> Panorama das ferramentas utilizadas incluindo discussão sobre o uso das mesmas.
+
+# Resultados
+
+> Esta pode ser uma seção independente ou combinada com a seção de Análises Realizadas.
+>
+> Descrição dos resultados mais importantes obtidos.
+>
+> Apresente os resultados da forma mais rica possível, com gráficos e tabelas. Mesmo que o seu código rode online em um notebook, copie para esta parte a figura estática. A referência a código e links para execução online pode ser feita aqui ou na seção de Análises Realizadas (o que for mais pertinente).
+
+# Discussão
+
+> Discussão dos resultados. Relacionar os resultados com as perguntas de pesquisa ou hipóteses avaliadas.
+>
+> A discussão dos resultados também pode ser feita opcionalmente na seção de Resultados, na medida em que os resultados são apresentados. Aspectos importantes a serem discutidos: Por que seu modelo alcançou (ou não) um bom resultado? É possível tirar conclusões dos resultados? Quais? Há indicações de direções para estudo? São necessários trabalhos mais profundos?
+
+# Conclusão
+
+> Destacar as principais conclusões obtidas no desenvolvimento do projeto.
+>
+> Destacar os principais desafios enfrentados.
+>
+> Principais lições aprendidas.
+
+# Trabalhos Futuros
+
+> O que poderia ser melhorado se houvesse mais tempo?
+> Quais possíveis desdobramentos este projeto pode ter?
+
+# Referências Bibliográficas
+
+> Lista de artigos, links e referências bibliográficas.
+>
+> Fiquem à vontade para escolher o padrão de referenciamento preferido pelo grupo.
