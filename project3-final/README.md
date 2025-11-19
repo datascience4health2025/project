@@ -139,9 +139,11 @@ Essas proteínas formam um **núcleo funcional** responsável por:
 - Influenciar a organização epigenética do **cromossomo X**
 
 Particularmente, a **HNRNPU** apresentou alta centralidade e relevância biológica por conectar:
+três dimensões críticas da doença (Liu et al., 2025; Sharp et al., 2025). Primeiro, ela interage com genes estimulados por interferon (ISGs), contribuindo para a robusta IFN signature observada em pacientes com lúpus. Segundo, exerce papel estrutural na manutenção do cromossomo X inativo, ancorando o RNA XIST ao Xi e impedindo a reativação de genes imunológicos como TLR7, CD40L e CXorf21, cuja desregulação amplifica respostas inflamatórias. E terceiro, se relaciona à via IL-21 e à ativação de linfócitos B, contribuindo para a produção de autoanticorpos. A expressão diferencial do HNRNPU oferece uma possível explicação coerente para o predomínio feminino do lúpus, já que a desregulação da inativação do X pode intensificar a resposta imune em mulheres. Entretanto, nossos dados não registram o sexo dos pacientes, impedindo afirmar se a maior expressão de HNRNPU observada é causa do viés feminino ou apenas reflexo da predominância de mulheres entre os casos de lúpus.
 
-- **Genes ISG**, associados ao *IFN signature* do lúpus
-- **Mecanismos epigenéticos do cromossomo X**, que podem contribuir para a **predominância feminina da doença**
+
+- **Genes ISG**, associados ao *IFN signature* do lúpus [Liu et al., 2025](https://doi.org/10.1371/journal.pgen.1011719)
+- **Mecanismos epigenéticos do cromossomo X**, que podem contribuir para a **predominância feminina da doença** [Liu et al., 2025](https://doi.org/10.1371/journal.pgen.1011719)
 - **Ativação da via IL-21 → linfócitos B → autoanticorpos**, sustentando a **resposta autoimune exacerbada**
 
 ### Lúpus Leve x Lúpus Medio/Grave
@@ -152,6 +154,13 @@ Devido à baixa amostragem de pacientes com SLEDAI grave (maior que 11), como mo
 ![sledai_distrib_grouped](assets/images/sledai_distrib_grouped.png)
 
 Além disso, o dataset trabalha com dados longitudinais, onde cada paciente possui diversas observações ao longo do tempo, com diferentes valores de SLEDAI atrelados. Como a base de dados já é suficientemente grande e desproporcional em termos da quantidade de amostras leves e médias/graves, optou-se por selecionar apenas a observação com maior valor de SLEDAI por paciente.
+
+#### Proteínas com maior Eigenvector
+
+![eigenvector](assets/images/eigenvector_lupus.png)
+
+
+
 
 # Ferramentas
 
