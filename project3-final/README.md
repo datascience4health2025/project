@@ -157,9 +157,11 @@ Além disso, o dataset trabalha com dados longitudinais, onde cada paciente poss
 
 #### Proteínas com maior Eigenvector
 
-![eigenvector](assets/images/eigenvector_lupus.png)
+![eigenvector](assets/images/eigen_leve_grave.png)
 
+Diversas proteínas ligadas à síntese de proteínas apareceram menos expressas no lúpus grave, incluindo RPL4, RPLP0 e RPL12 (componentes da subunidade 60S do ribossomo), bem como os fatores de elongação EEF2 e EEF1G. Proteínas regulatórias e nucleares, como PPP1R26, RUVBL1 e ATP5F1B, também apresentaram queda de expressão.
 
+Estes resultados foram particularmete contraditórios, esperávamos uma alta síntese proteica nos pacientes com lupus devido a maior produção de anticorpos. No entanto, esse conjunto sugere uma possível disfunção da maquinaria de tradução, especialmente porque várias dessas proteínas são alvos conhecidos de autoanticorpos no LES, o que pode reduzir sua estabilidade ou síntese. Outros fatores também podem explicar a redução, como uso de corticosteroides, estresse inflamatório intenso ou baixa representatividade de pacientes com SLEDAI grave na amostra. Assim, a queda dessas proteínas pode refletir um cenário multifatorial, combinando autoimunidade, tratamento e efeitos da gravidade da doença.
 
 
 # Ferramentas
