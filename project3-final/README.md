@@ -85,6 +85,7 @@ Os dados utilizados neste estudo foram obtidos do banco público GEO (Gene Expre
 
 1. Lúpus versus indivíduos saudáveis
 2. Lúpus leve versus lúpus grave, com base no escore SLEDAI.
+3. Lúpus levissimo vs. lúpus gravissimo, com base no escore SLEDAI para os pacientes que apresentaram ambas as condições.
 
 A separação dos grupos lupus e indivíduos saudáveis foi feita utilizando a ferramenta GEO2R, que permite análises estatísticas diretas a partir da base GEO. Já a separação entre os grupos com lúpus leve e lúpus grave foi feita utilizando Python.
 
@@ -221,7 +222,7 @@ PPP1R26 | 0.2284 | -0.0446
 RPS17 | 0.2544 | -0.0104
 RPL4 | 0.8348 | -0.0017
 
-Note que a análise foi realizada dividindo o nível de expressão gênica das amostras graves pelas amostras leves, logo valores negativos de log2FC indicam que o gene foi menos expresso nos pacientes graves. Sendo assim, podemos notar que todos os genes selecionados continuam menos expressos nos pacientes graves, mantendo a mesma tendência contraditória observada na análise anterior.
+Note que a análise foi realizada dividindo o nível de expressão gênica das amostras graves pelas amostras leves, logo valores negativos de log2FC indicam que o gene foi menos expresso nos pacientes graves. Sendo assim, podemos notar que todos os genes selecionados continuam menos expressos nos pacientes graves, mantendo a mesma tendência contraditória observada na análise anterior. Uma possível explicação para isso é que, de acordo com o artigo, todos os pacientes que apresentaram sintomas receberam algum tipo de tratamento, que não foi especificado. Além disso, quando comparado a diferença absoluta no SLEDAI entre visitas para um mesmo paciente, foi observado que em 70% dos casos o paciente tem uma redução na sua taxa. Isso significa que o tratamento aplicado de fato surte um efeito positivo, o que explicaria o fato dos principais genes estarem menos expressos em casos graves que em casos leves.
 
 ### Correlação com Neutrófilos
 
