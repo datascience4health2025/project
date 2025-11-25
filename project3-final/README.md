@@ -304,8 +304,11 @@ As lições aprendidas durante o processo foram fundamentais para a maturidade d
 
 # Trabalhos Futuros
 
-> O que poderia ser melhorado se houvesse mais tempo?
-> Quais possíveis desdobramentos este projeto pode ter?
+Considerando as descobertas e os desafios metodológicos enfrentados, a continuidade deste estudo poderia beneficiar-se das seguintes abordagens:
+
+- **Integração com Dados Epigenéticos:** Dada a identificação da proteína HNRNPU e sua relação com a inativação do cromossomo X como um potencial fator para a predominância feminina da doença, um desdobramento seria a análise integrada de dados de metilação do DNA e modificação de histonas. Isso permitiria investigar se o silenciamento incompleto do cromossomo X é, de fato, mediado por alterações epigenéticas nessas vias específicas.
+- **Controle de Variáveis de Tratamento:** Para refinar a interpretação dos resultados "contraditórios" sobre a baixa expressão de genes ribossomais em casos graves, seria ideal replicar a análise em uma coorte de pacientes recém-diagnosticados (*naïve*) ou estratificar os dados pelo tipo e dosagem de imunossupressores/corticosteroides utilizados, informações que não estavam disponíveis no artigo associado ao *dataset* utilizado. Isso ajudaria a distinguir quais alterações moleculares são causadas pela patologia e quais são efeitos secundários da medicação.
+- **Ampliação e Validação da Amostra:** Com mais tempo, seria fundamental expandir o estudo para *datasets* com um número maior de pacientes classificados com SLEDAI grave, corrigindo o desbalanceamento amostral observado.
 
 # Referências Bibliográficas
 
